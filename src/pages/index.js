@@ -6,14 +6,17 @@ import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
+import { Fade } from "react-reveal";
 
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
+      <Fade bottom duration={1500}>
+        <Section grid>
+          <Hero />
+          <BgAnimation />
+        </Section>
+      </Fade>
       <Projects />
       <Technologies />
       <Timeline />
