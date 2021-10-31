@@ -33,7 +33,7 @@ const Header = () => (
             }}
             href=""
           >
-            <DiCssdeck size="3rem" /> <Span>Portofolio</Span>
+            <DiCssdeck size="3rem" /> <Span>Al Aqsa</Span>
           </a>
         </Link>
       </Div1>

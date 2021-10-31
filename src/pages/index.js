@@ -17,7 +17,9 @@ const Home = () => {
           <BgAnimation />
         </Section>
       </Fade>
-      <Projects />
+      <Fade bottom duration={2000}>
+        <Projects />
+      </Fade>
       <Technologies />
       <Timeline />
       <Acomplishments />
