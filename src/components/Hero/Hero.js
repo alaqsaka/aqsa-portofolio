@@ -17,9 +17,6 @@ const Hero = (props) => (
         Currently working for myself and investing in my dreams.
       </SectionTitle>
       <SectionText>Based in Tangerang Selatan, Banten, Indonesia</SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Learn More
-      </Button>
     </LeftSection>
   </Section>
 );

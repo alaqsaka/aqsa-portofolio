@@ -6,6 +6,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { Fade } from "react-reveal";
 
 const data = [
   {
@@ -31,17 +32,19 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
-    <SectionTitle>My Certifications</SectionTitle>
-    <Boxes>
-      {data.map((card, index) => (
-        <Box ket={index}>
-          <BoxNum>{card.date}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
-    </Boxes>
-  </Section>
+  <Fade bottom duration={2000}>
+    <Section>
+      <SectionTitle>My Certifications</SectionTitle>
+      <Boxes>
+        {data.map((card, index) => (
+          <Box ket={index}>
+            <BoxNum>{card.date}</BoxNum>
+            <BoxText>{card.text}</BoxText>
+          </Box>
+        ))}
+      </Boxes>
+    </Section>
+  </Fade>
 );
 
 export default Acomplishments;
