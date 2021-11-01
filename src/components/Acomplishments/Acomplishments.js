@@ -37,7 +37,7 @@ const Acomplishments = () => (
       <SectionTitle>My Certifications</SectionTitle>
       <Boxes>
         {data.map((card, index) => (
-          <Box ket={index}>
+          <Box key={index}>
             <BoxNum>{card.date}</BoxNum>
             <BoxText>{card.text}</BoxText>
           </Box>
