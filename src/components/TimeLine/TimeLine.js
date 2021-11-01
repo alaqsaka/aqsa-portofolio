@@ -67,11 +67,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Saya adalah mahasiswa semester dua program studi informatika. Tertarik
-        untuk berkarir pada bidang software engineering. Memiliki banyak
-        pengalaman dalam bidang pemrograman berorientasi objek, pemrograman web,
-        dan mengolah basis data. Suka untuk mempelajari hal baru untuk
-        mendapatkan dan meningkatkan kemampuan diri.
+        I am a third semester student of the informatics study program.
+        Interested in a career in software engineering. Has a lot of experience
+        in object-oriented programming, web programming, and database
+        processing. Likes to learn new things to gain and improve self-ability.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
