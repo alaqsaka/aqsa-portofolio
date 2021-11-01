@@ -35,8 +35,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            ReactJS and Angular
+            Currently learning and building stuff with ReactJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,8 +54,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Design</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            UI/UX Tools, Figma. Web styling, Bootstrap, CSS.
+            Experience with UI/UX Tools, Figma. Web styling, Bootstrap, CSS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
