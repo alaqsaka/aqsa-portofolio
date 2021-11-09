@@ -33,7 +33,7 @@ const Header = () => (
             }}
             href=""
           >
-            <DiCssdeck size="3rem" /> <Span>Al Aqsa</Span>
+            <Span>Al Aqsa</Span>
           </a>
         </Link>
       </Div1>
@@ -55,13 +55,16 @@ const Header = () => (
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com">
+        <SocialIcons href="https://github.com/alaqsaka" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://linkedin.com">
+        <SocialIcons
+          href="https://www.linkedin.com/in/al-aqsa-krisnaya/"
+          target="_blank"
+        >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com">
+        <SocialIcons href="https://twitter.com/AqsaKA" target="_blank">
           <AiFillTwitterSquare size="3rem" />
         </SocialIcons>
       </Div3>
