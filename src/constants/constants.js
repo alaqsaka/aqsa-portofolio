@@ -63,4 +63,8 @@ export const TimeLineData = [
     year: 2021,
     text: "From July to September doing my first internship as a front end engineer in ReadyLearn, start-up focusing on education",
   },
+  {
+    year: 2021,
+    text: "Front End Developer (Intern) at LingoTalk",
+  },
 ];
