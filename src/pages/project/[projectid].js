@@ -14,7 +14,7 @@ import {
   VisitPage,
   Buttons,
   ExternalLinks,
-} from "./ProjectStyles";
+} from "../../components/Project/ProjectStyles";
 import Link from "next/link";
 
 function getProjectIdDetails(props) {
