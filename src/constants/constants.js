@@ -17,7 +17,7 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript", "Netlify"],
     source: "https://github.com/alaqsaka/Restaurant_Catalogue_Aqsa",
     visit: "https://restourant-by-aqsa.netlify.app/",
-    id: 1,
+    id: "1",
   },
   {
     title: "Responsive Website: MathAI",

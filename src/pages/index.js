@@ -11,6 +11,7 @@ import { Fade } from "react-reveal";
 const Home = () => {
   return (
     <Layout>
+      <title>Aqsa Portfolio</title>
       <Fade bottom duration={1500}>
         <Section grid>
           <Hero />

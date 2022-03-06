@@ -12,7 +12,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        19 years old guy, web development and <br />
+        19 year old guy, web development and <br />
         technologies enthusiast. <br />
         Currently working for myself and investing in my dreams.
       </SectionTitle>
